@@ -1,11 +1,13 @@
 #include <stdio.h>
 main() {
-	int result = plus(10000000,800000000);
-	printf("%i", result);
+	printf("%i \n", plus(132,145));
+	printf("%i", minus(185,465));
 	return 0;
 }
 //cong hai so voi tham so au vao là a, b là hai so nguyen
 int plus(int a, int b){
-	int c = a + b;
-	return c;
+	return a+b;
+}
+int minus(int a,int b){
+	return a-b;
 }
