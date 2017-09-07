@@ -6,7 +6,7 @@ main() {
 	printf("%i \n", devide(465,125));
 	return 0;
 }
-//cong hai so voi tham so au vao l� a, b l� hai so nguyen
+//cong hai so voi tham so au vao là a, b là hai so nguyen hàm chuẩn
 int plus(int a, int b){
 	return a+b;
 }
